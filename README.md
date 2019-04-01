@@ -3,12 +3,13 @@ A platform indepindependent installer of [FFmpeg](https://ffmpeg.org/)
 
 
 Supported architectures:
-Linux | Windows | Mac
------ | ------- | ---
-x64   | x64     | x64
-ia32  | ia32    |
-arm   |         |
-arm64 |         |
+
+| Linux | Windows | Mac |
+|-------|:-------:|----:|
+| x64   | x64     | x64 |
+| ia32  | ia32    |     |
+| arm   |         |     |
+| arm64 |         |     |
 
 ## API
 `node-ffmpeg-binaries` exports a string containing the path to the FFmpeg executable.
